@@ -45,12 +45,5 @@ namespace TaskMG.Repositories
                 throw ex;
             }
         }
-        //public async Task<SentenceDto>AddSentences(string firstSentence, string secondSentence)
-        //{
-        //    _db.Sentences.Add(obj);
-        //    _db.SaveChanges();
-
-        //}
-
-    }
+     }
 }
