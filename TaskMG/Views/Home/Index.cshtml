@@ -6,17 +6,19 @@
 
 
 <div>
-<div class="text-center">
-    <h1 class="display-4">Reverse Text Application</h1>
-</div>
+    <div class="text-center">
+        <h1 class="display-4">Reverse Text Application</h1>
+    </div>
 </div>
 
 @using (Html.BeginForm("ProcessText", "Home", FormMethod.Post))
 {
     <div class="form-group">
-        <label asp-for="InputSentence"></label>
+        <h3>
+            <label asp-for="InputSentence"></label>
+        </h3>
         <input asp-for="InputSentence" class="form-control"/>
-    <input type="submit" value="Process Text" class="btn btn-primary" />
+        <input type="submit" value="Process Text" class="btn btn-primary" />
         <a asp-controller="Sentence" asp-action="Index" class="btn btn-secondary">Go to Sentence History</a>
     </div>
 }

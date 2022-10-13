@@ -16,3 +16,43 @@ html {
 body {
   margin-bottom: 60px;
 }
+.btn {
+    margin-top: 10px;
+    margin-right:5px;
+}
+.fa-linkedin {
+    background: #007bb5;
+    color: white !important;
+}
+
+.fa-github {
+    background: #161B23;
+    color: white !important;
+}
+
+.container-fa {
+    display: flex;
+    gap: 10px;
+}
+.object-center{
+    padding-left:100px;
+}
+
+.fa {
+    padding: 4px;
+    margin: 10px 0;
+    font-size: 30px;
+    width: 40px;
+    height: 40px;
+    text-decoration: none;
+    border-radius: 20%;
+    text-align: center;
+    box-shadow: 0 2px 4px darkslategray;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+    .fa:hover {
+        opacity: 0.7;
+    }

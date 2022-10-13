@@ -1,16 +1,16 @@
 ﻿@model IEnumerable<SentenceDto>
 @{
-	ViewData["Title"] = "Sentences";
+	ViewData["Title"] = "Solbeg Recruitment Task";
 }
-<h1>Sentences</h1>
+<h1>History of records</h1>
 <table class="table table-bordered table-striped" style="width:100%">
 	<thead>
 		<tr>
 			<th>
-				Sentence First
+				Original Sentence
 			</th>
 			<th>
-				Sentence Second
+				Reversed Sentence
 			</th>
 		</tr>
 	</thead>
@@ -27,4 +27,4 @@
 		}
 	</tbody>
 </table>
-<a asp-controller="Home" asp-action="Index" class="btn btn-secondary">Back to</a>
+<a asp-controller="Home" asp-action="Index" class="btn btn-secondary">Back to Home</a>

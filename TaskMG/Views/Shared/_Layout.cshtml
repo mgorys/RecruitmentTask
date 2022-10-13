@@ -7,12 +7,12 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/TaskMG.styles.css" asp-append-version="true" />
+    <script src="https://kit.fontawesome.com/65029ec864.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">TaskMG</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -25,6 +25,7 @@
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Sentence" asp-action="Index">History</a>
                         </li>
+                        
                     </ul>
                 </div>
             </div>
@@ -37,8 +38,17 @@
     </div>
 
     <footer class="border-top footer text-muted">
-        <div class="container">
+        <div class="container-fa object-center">
             &copy; 2022 - TaskMG - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        
+            <a href="https://github.com/mgorys">
+                <a href="https://github.com/mgorys" class="fa fa-github"></a>
+            </a>
+            <br>
+            <a href="https://www.linkedin.com/in/michał-goryszewski-474398235/">
+
+                <a href="https://www.linkedin.com/in/michał-goryszewski-474398235/" class="fa fa-linkedin"></a>
+            </a>
         </div>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
