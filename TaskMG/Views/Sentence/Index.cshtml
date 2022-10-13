@@ -1,0 +1,30 @@
+﻿@model IEnumerable<SentenceDto>
+@{
+	ViewData["Title"] = "Sentences";
+}
+<h1>Sentences</h1>
+<table class="table table-bordered table-striped" style="width:100%">
+	<thead>
+		<tr>
+			<th>
+				Sentence First
+			</th>
+			<th>
+				Sentence Second
+			</th>
+		</tr>
+	</thead>
+	<tbody>
+		@foreach(var obj in Model){
+			<tr>
+				<td width="50%">
+					@obj.InputSentence
+				</td>
+				<td width="50%">
+					@obj.OutputSentence
+				</td>
+			</tr>
+		}
+	</tbody>
+</table>
+<a asp-controller="Home" asp-action="Index" class="btn btn-secondary">Back to</a>
